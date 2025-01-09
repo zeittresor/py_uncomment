@@ -9,7 +9,7 @@ usage:
 py_uncomment.py [filename]
 -> Should create a backup of the original code as [filename].backup.py and a new version with the same name like the sourcecode but without the "#" comments inside.
 
-Same it you start it without a filename, in that case a filedialog box should be viewed to select the file you want to be uncommented.
+Its doing the same if you start it without a filename, but in that case a filedialog box should be viewed to select the file you want to be uncommented.
 
 If you past the new sourcecode to a LLM it IMHO needs some less tokens to work with it.
 
