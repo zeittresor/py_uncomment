@@ -14,3 +14,7 @@ Its doing the same if you start it without a filename, but in that case a filedi
 If you past the new sourcecode to a LLM it IMHO needs some less tokens to work with it.
 
 Script Source: https://github.com/zeittresor/py_uncomment
+
+Update 12-2025:
+- Added some Options to the GUI
+  <img width="605" height="316" alt="grafik" src="https://github.com/user-attachments/assets/21697b58-32ef-4a16-9694-b92a071155fe" />
