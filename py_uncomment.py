@@ -170,14 +170,14 @@ class CommentStripperApp:
             "Select a Python file to remove comments and documentation:\n"
             "  • # comments (except shebang and encoding line)\n"
             "  • bare triple-quoted docstrings or blocks\n\n"
-            "All options below are disabled by default."
+            "Options:"
         )
         self.label = tk.Label(master, text=description, justify="left", anchor="w")
         self.label.pack(padx=10, pady=10, fill="x")
-        self.var_keep_shaders = tk.IntVar(value=0)
-        self.var_squeeze_blank = tk.IntVar(value=0)
+        self.var_keep_shaders = tk.IntVar(value=1)
+        self.var_squeeze_blank = tk.IntVar(value=1)
         self.var_keep_todo = tk.IntVar(value=0)
-        self.var_remove_backslash = tk.IntVar(value=0)
+        self.var_remove_backslash = tk.IntVar(value=1)
         self.chk_keep_shaders = tk.Checkbutton(
             master,
             text="Do not remove probable shader strings",
@@ -265,3 +265,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
